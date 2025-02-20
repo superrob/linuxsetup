@@ -1,5 +1,8 @@
+# Hvad er det her?
+Dette er blot nogle af mine personlige noter omkring min Arch installation som ville være træls at glemme.
+
 # Forkert opløsning i TTY og greeter
-## TTY
+### TTY
 Min Samsung G9 OLED startede op forkert ved 3840x1080 i stedet for den korrekte 5120x1440 opløsning. Dette giver trælse "sorte skærme" ved login og ved skift til en TTY konsol med ctrl+alt+f[3-7]
 
 Løsningen var en kernel parameter: 
@@ -7,7 +10,7 @@ Løsningen var en kernel parameter:
 
 Fandt denne løsning her: https://wiki.archlinux.org/title/Kernel_mode_setting#Forcing_modes
 
-## GDM
+### GDM
 Kopierede Gnome's monitors.xml til GDM. Dette virkede ikke. Problemet viste sig at være at jeg havde slået VRR til i Gnome. 
 
 Dette er en experimentiel indstilling som skulle slåes til med:
